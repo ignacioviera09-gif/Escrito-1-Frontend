@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ header{
+    background-image: url("/images/desktop/image-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 40px;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.header-text{
+    margin-top: 100px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px;
+}
+.header-text h1{
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.seccion{
+    display: flex;
+    justify-content: center;
+}
+
+.interactive{
+    width: 70%;
+    height: auto;
+    padding: 100px;
+    padding-left: 30px;
+}
+
+.card-text{
+    max-width: 400px;
+    
+}
+
+.secciones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
