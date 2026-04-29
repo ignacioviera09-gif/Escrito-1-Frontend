@@ -53,16 +53,32 @@ body{
 }
 
 .interactive{
-    width: 70%;
+    width: 80%;
     height: auto;
     padding: 100px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .card-text{
     max-width: 400px;
-    
+    background-color: white;
+    position: absolute;
+    top : 170%;
+    left: 50%;
+    padding: 40px;
 }
+
+h3{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+ p{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 20px;
+ }
 
 .secciones{
     display: grid;
